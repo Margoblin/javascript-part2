@@ -1,0 +1,98 @@
+.main-header{
+    padding: 20px;
+    background-color: #552a2a;
+    display: flex;
+}
+    
+body{
+    background-color: #f1ecc7;
+    margin: 0 auto;
+}
+
+.cart-button{
+    padding: 12px 28px;
+    border-radius: 5px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #201a0e;
+    background-color: #f1ecc7;
+    font-family: fantasy;
+    outline: none;
+    border: none;
+}
+
+.cart-button:hover{
+    background-color: #ddc290;
+    color:#131009;
+}
+
+.cart-button:active{
+    color: #201a0e;
+    background-color: #f1ecc7;
+}
+
+.main-title{
+    margin: 0 0 0 50px;
+    font-size: 34px;
+    width: 50%;
+    text-align: center;
+    color: #ff9f28;
+    font-family: monospace;
+}
+
+.goods-list{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+
+.goods-item{
+    background-color: #974110;
+    text-align: center;
+    width: 20%;
+    padding: 10px 0;
+    border-radius: 3px;
+
+}
+
+.item-title,
+.item-price{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.item-title{
+    color: #2e0808;
+    font-size: 27px;
+    font-family: sans-serif;
+    background-color: #e1c063;
+    line-height: 45px;
+}
+
+.item-price{
+    color: #0f0a0a;
+    font-size: 21px;
+    font-family: fantasy;
+    line-height: 40px;
+}
+
+.buy-button{
+    background-color: #113c1d;
+    color: #e7c294;
+    padding: 7px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buy-button:hover{
+    background-color: #081e0e;
+    color: #f1ddc3;
+}
+
+.buy-button:active{
+    background-color: #113c1d;
+    color: #e7c294;
+}
